@@ -45,7 +45,7 @@ print()
 headers['Cookie'] = cookies
 cooldown = 12
 
-converter = opencc.OpenCC("t2s.json")
+converter = opencc.OpenCC("t2s")
 
 
 def conv(t):

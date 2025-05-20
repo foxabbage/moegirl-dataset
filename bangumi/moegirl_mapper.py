@@ -524,8 +524,8 @@ def is_postfix(a, b):
         return a == b
 
 
-converter = opencc.OpenCC("jp2t.json")
-converter2 = opencc.OpenCC("t2s.json")
+converter = opencc.OpenCC("jp2t")
+converter2 = opencc.OpenCC("t2s")
 
 
 def conv(t):

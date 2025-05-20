@@ -12,7 +12,7 @@ from utils.file import save_json, save_json_pretty
 warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning, module="bs4")
 warnings.simplefilter("always", UserWarning)
 
-converter = opencc.OpenCC("t2s.json")
+converter = opencc.OpenCC("t2s")
 
 
 def conv(t):

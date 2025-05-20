@@ -2,6 +2,7 @@
 @cd moegirl
 @cd crawler2
 @REM moegirl/crawler2/process.py
+python crawler2.py
 python process.py
 @cd ..
 @cd preprocess
